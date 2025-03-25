@@ -16,12 +16,12 @@ namespace Florence.ServerAssembly
             game_server.GetExecute().Initialise();
             System.Console.WriteLine("created => Florence.ServerAssembly.Server()");//TestBench
 
-            //Florence.ServerAssembly.Library.ServerCallTo_Create_Hosting_Server();//todo
+            Florence.ServerAssembly.Library.ServerCallTo_Create_Hosting_Server();//todo
             System.Console.WriteLine("created => Server_Library.Framework_Server()");//TestBench
 
             game_server.GetExecute().Initialise_Threads();//todo
 
-            Florence.ServerAssembly.Framework.GetGameServer().GetExecute().Create_And_Run_Graphics();
+            //Florence.ServerAssembly.Framework.GetGameServer().GetExecute().Create_And_Run_Graphics();
 
             //ToDo
 
